@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="ObfuscateCORE.Views.URLPage"
+    Style="{DynamicResource MahApps.Styles.Page}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:properties="clr-namespace:ObfuscateCORE.Properties"
+    mc:Ignorable="d" Width="451" Height="370">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock
+            Style="{StaticResource PageTitleStyle}"
+            Margin="{StaticResource MediumLeftMargin}"
+            Text="{x:Static properties:Resources.URLPageTitle}" />
+        <Grid
+            Margin="24,0,24,0"
+            Background="{DynamicResource MahApps.Brushes.Gray10}" Grid.Row="1">
+            <Label Content="IPAddress (IPv4 Only)" HorizontalAlignment="Left" Margin="24,8,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="unIP" HorizontalAlignment="Left" Margin="28,33,0,0" Text="Unobfuscated IP" TextWrapping="Wrap" VerticalAlignment="Top" Width="343"/>
+            <Button x:Name="encryptIP" Content="Encrypt" HorizontalAlignment="Center" Margin="0,63,0,0" VerticalAlignment="Top" Width="83"/>
+            <TextBox x:Name="OIP" HorizontalAlignment="Center" Margin="0,96,0,0" Text="Obfuscated IP" TextWrapping="Wrap" VerticalAlignment="Top" Width="339"/>
+            <Label Content="URL" HorizontalAlignment="Left" Margin="43,0,0,0" VerticalAlignment="Center"/>
+            <TextBox x:Name="UnURL" HorizontalAlignment="Center" Margin="0,172,0,0" Text="Unobfuscated URL" TextWrapping="Wrap" VerticalAlignment="Top" Width="341"/>
+            <Button x:Name="encryptURL" Content="Encrypt" HorizontalAlignment="Center" Margin="0,201,0,0" VerticalAlignment="Top" Width="83"/>
+            <TextBox x:Name="OURL" HorizontalAlignment="Center" Margin="0,229,0,0" Text="Obfuscated URL" TextWrapping="Wrap" VerticalAlignment="Top" Width="335"/>
+            <!--
+            The Mahapps Gray10 color represents where you should place your content.
+            Place your content here.
+            -->
+        </Grid>
+    </Grid>
+</Page>

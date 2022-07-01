@@ -1,0 +1,9 @@
+E:\ObfuscateCORE\App1.Core\bin\Debug\netstandard2.0\ObfuscateCORE.Core.deps.json
+E:\ObfuscateCORE\App1.Core\bin\Debug\netstandard2.0\ObfuscateCORE.Core.dll
+E:\ObfuscateCORE\App1.Core\bin\Debug\netstandard2.0\ObfuscateCORE.Core.pdb
+E:\ObfuscateCORE\App1.Core\obj\Debug\netstandard2.0\ObfuscateCORE.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\ObfuscateCORE\App1.Core\obj\Debug\netstandard2.0\ObfuscateCORE.Core.AssemblyInfoInputs.cache
+E:\ObfuscateCORE\App1.Core\obj\Debug\netstandard2.0\ObfuscateCORE.Core.AssemblyInfo.cs
+E:\ObfuscateCORE\App1.Core\obj\Debug\netstandard2.0\ObfuscateCORE.Core.csproj.CoreCompileInputs.cache
+E:\ObfuscateCORE\App1.Core\obj\Debug\netstandard2.0\ObfuscateCORE.Core.dll
+E:\ObfuscateCORE\App1.Core\obj\Debug\netstandard2.0\ObfuscateCORE.Core.pdb
